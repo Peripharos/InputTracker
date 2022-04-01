@@ -47,6 +47,7 @@ namespace InputTracker
             NotifyIcon.Text = ExeName;
 
             GetDataFromDokument();
+
             keyHook.KeyUp += new KeyEventHandler(KeyHook_KeyUp);
             mouseHook.ButtonUp += new MouseEventHandler(MouseHook_ButtonUp);
         }
